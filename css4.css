@@ -1,0 +1,88 @@
+/*
+class==>>main-div + header-nav-div + item-1...9 + button + img + height-div
+*/
+body{
+    direction:rtl;
+}
+nav{
+    margin-top:-50px;
+    position:fixed;
+    background-color: transparent;
+    background-size:contain;
+    display:flex;
+    flex-direction: row;
+    
+}
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6,
+.item-7,
+.item-8,
+.item-9{
+    margin:0px 10px;
+}
+.item-1,
+.item-2{
+    margin-top:-15px;
+}
+.item-1{
+    margin-right:15px;
+}
+.item-2{
+    margin-left:20px;
+}
+.height1-div{
+    height:350px;
+}
+.height2-div{
+    height:120px;
+}
+.img{
+    background-image: url('./css44.jpg');
+    background-repeat: no-repeat;
+    margin:-20px;
+    margin-top:-250px;
+    background-size: cover;
+    height: 1000px;
+}
+section{
+    text-align:center;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size:16px;
+}
+a:hover{
+    color:lightgreen;
+}
+h1{
+    font-size:50px;
+    font-weight: bold;
+    color:white;
+    margin-bottom: -5px;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+}
+.button{
+    border-width: 2xp;
+    border-color:#14bf98;
+    background-color: #14bf98;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    width:150px;
+    height:50px;
+}
+.button:hover{
+    color:#14bf98;
+    background-color: transparent;
+}
